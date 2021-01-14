@@ -24,7 +24,7 @@ The dataset is available on kaggle [here](https://www.kaggle.com/c/rossmann-stor
   - including detailed information on holiday periods
   
 3) Performance evaluation
-
+Prophet performs very well when seasonality is high.
 
 # Results
 
@@ -45,3 +45,9 @@ The additive model analyzes variations are multiple levels:
 
 # Dependencies
 - Facebook Prophet (pip install fbprophet)
+
+# Next
+- benchmark prediction performance against other models :
+  - LSTM network
+  - XGBoost
+  - StatModels
