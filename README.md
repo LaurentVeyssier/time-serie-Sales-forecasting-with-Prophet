@@ -4,7 +4,7 @@ Use Facebook Prophet model to forecast Sales including seasonality patterns
 In this notebook, Prophet model is used to forecast Sales at store level with high seasonality effects.
 
 # Dataset
-The dataset used collects daily sales from over 1000 stores and 31 months resulting into over 1 million transaction logs. In addition to transactions, the dataset includes information about promotions and holiday periods at store level. This is used to incorporate holiday information during forecasting step.
+The dataset used collects daily historical sales data from 1,115 Rossmann stores over 31 months resulting into 1+ million transaction records. In addition to transactions, the dataset includes information about promotions, competition and holiday periods at store level. This info is used to incorporate holidays during forecasting step.
 The dataset is available on kaggle [here](https://www.kaggle.com/c/rossmann-store-sales/data).
 
 # Project structure
