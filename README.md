@@ -1,4 +1,4 @@
-# time-serie-Sales-forecasting-with-Prophet
+# Sales-forecasting-with-Prophet-and-Time-series
 Use Facebook Prophet model to forecast Sales including seasonality patterns
 
 In this notebook, Prophet model is used to forecast Sales at store level with high seasonality effects.
@@ -14,6 +14,10 @@ The dataset is available on kaggle [here](https://www.kaggle.com/c/rossmann-stor
 ![](asset/monthly.jpg)
 
 ![](asset/daily.jpg)
+
+  - The analysis also indicates a positive impact from promotions on sales and customer frequentation.
+  
+ ![](asset/promo.jpg) 
 
 2) Forecasting using Prophet
   - without information on holidays
