@@ -24,7 +24,9 @@ The dataset is available on kaggle [here](https://www.kaggle.com/c/rossmann-stor
   - including detailed information on holiday periods
   
 3) Performance evaluation
-- Prophet performs very well when seasonality is high.
+- Prophet performs very well when seasonality is high. The model's perfromance is evaluated using RMSE metric. It shows that the error remains constant over the projected horizon.
+
+![](asset/performance.jpg) 
 
 # Results
 
@@ -51,3 +53,4 @@ The additive model analyzes variations at multiple levels:
   - LSTM network
   - XGBoost
   - StatModels
+  - Others
