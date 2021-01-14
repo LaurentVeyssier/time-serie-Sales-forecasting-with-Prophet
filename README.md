@@ -31,10 +31,10 @@ The dataset is available on kaggle [here](https://www.kaggle.com/c/rossmann-stor
 Forecast over 90 days example:
 ![](asset/newplot.png)
 
-The additive model analyzes variations are multiple levels:
-- long-term trend
-- seasonal trends (yearly, monthly, weekly and daily)
-- impact from holidays. In this last graph below, we see some spikes explained by holidays which are then integrated into the forecasting model.
+The additive model analyzes variations at multiple levels:
+- long-term base trend
+- seasonal 'noise' (yearly, monthly, weekly and daily)
+- impact from holidays. In the last picture below, we see some sales spikes explained by holidays. These are then integrated into the forecasting model.
 
 ![](asset/trend.jpg)
 
