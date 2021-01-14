@@ -36,7 +36,7 @@ Forecast over 90 days example:
 The additive model analyzes variations at multiple levels:
 - long-term base trend
 - seasonal 'noise' (yearly, monthly, weekly and daily)
-- impact from holidays. In the last picture below, we see some sales spikes explained by holidays. These are then integrated into the forecasting model.
+- impact from holidays. In the last picture below, we see some holiday pattern and spikes which may impact sales. These are integrated into the forecasting model.
 
 ![](asset/trend.jpg)
 
