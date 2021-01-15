@@ -36,8 +36,8 @@ Key points:
   - including detailed information on holiday periods
   
 3) Performance evaluation
-- Prophet performs very well when seasonality is high. The model's perfromance is evaluated using RMSE metric. It shows that the error remains constant over the projected horizon.
-- 90 days horizon:
+- Prophet performs very well when seasonality is high. The model's performance is evaluated using RMSE metric (root mean square error). It shows that the error remains constant over the projected horizon.
+- 90 days horizon example:
 
 ![](asset/performance.jpg) 
 
@@ -50,7 +50,7 @@ Forecast over 90 days example:
 The additive model analyzes variations at multiple levels:
 - long-term base trend
 - seasonal patterns (yearly, monthly, weekly and daily)
-- impact from holidays. In the last picture below, we see some holiday pattern (national and state-wise, it includes also all scholl holidays) with spikes which may influence sales. These are integrated as an input into the forecasting model.
+- impact from holidays. In the last picture below, we see the holiday pattern (national and state-wise, it includes also all school holidays) with spikes which may influence sales. These are integrated as an input into the forecasting model.
 
 ![](asset/trend.jpg)
 
@@ -67,6 +67,7 @@ Performance evaluation with 15 days horizon:
 
 # Next
 - benchmark prediction performance against other models :
+  - DeepAR (Amazon for powerful time series forecasting)
   - LSTM network
   - XGBoost
   - StatModels
